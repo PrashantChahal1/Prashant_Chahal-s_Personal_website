@@ -1,0 +1,425 @@
+.banner
+{ 
+    background-color: #000000;
+    margin:0;
+    
+        
+}
+body
+{
+    font-family: 'Work Sans', sans-serif;
+}
+.flexbox
+{
+    display: flex;
+    gap:10px;
+    justify-content: end;
+    
+}
+
+ 
+
+.Contact_us, .Resume, .last, .SM
+{
+    color:#fff1e1;
+    text-decoration: none;
+    padding: 16px;
+    margin: 10px;
+    font-weight: bold;
+    color:grey;
+    border: 2px  solid;
+    border-radius: 10%;
+}
+a:hover
+{
+  animation-name: Thankyou;
+  animation-duration: 1s;
+  background-color: #1d3c45 ;
+    color:#fff1e1;
+}
+@keyframes Thankyou
+{
+    to {
+        text-indent: 20px;
+    }
+}
+.header_logo
+{
+    padding: 11px;
+    display: inline-block;
+    float: left;
+}
+@media(max-width: 532px)
+{
+    .logo
+    {
+        clear: left;
+        display: flex;
+        width: 255px;
+        height: 55px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        justify-content: center;
+
+    }
+    .flexbox
+    {
+        clear: left;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+}
+
+.visually-hidden:not(:focus):not(:active) {
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.heading1
+{   clear: left;
+    display:flex;
+    padding-left:16px;
+    
+}
+h1
+{
+    margin-bottom: 0%;
+}
+.intro
+{
+    clear:left;
+    display: flex;
+    font-size: 50px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight:bold;
+    padding-left:16px;
+    margin-top: 0%;
+}
+.item4
+{
+ padding-left:16px;
+ font-size: 15px;
+ display: flex;
+ gap: 30px;
+ justify-content: space-between;
+}
+.intro1
+{
+    flex-basis: 700px;
+    font-size: 20px;
+    margin-top: 0%;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+
+.profile
+{
+    display: flex;
+    justify-content: center;
+    padding:20px;
+}
+.dp
+{
+    border-radius: 50%
+}
+.main_section
+{
+    background-color:#94a596;
+    color:#003b49;
+}
+
+.item3
+{
+    padding-right:20px;
+}
+@media(max-width: 489px)
+{
+    .item4
+    {
+        clear: left;
+        flex-direction: column-reverse;
+        padding: auto;
+
+    }
+    .item3
+    {
+        width: auto;
+        padding: auto;
+    }
+   
+    .intro
+    {
+        clear:left;
+        display: flex;
+        padding-left: 20px;
+        font-size: 35px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight:bold;
+        padding: auto;
+    } 
+    .intro1
+{
+    flex-basis: auto;
+    font-size: 20px;
+    margin-top: 0%;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    padding: auto;
+}
+}
+
+.skill1
+{
+    display: flex;
+    gap:20px;
+    padding-top: 30px;
+}
+
+.skill2
+{
+    display:flex;
+    justify-content: end;
+    gap:20px;
+    flex-direction: row-reverse;;
+    padding-top: 30px;
+}
+.skill1_content
+{
+    flex-basis: 500px;
+    padding: 5px;
+}
+.access1
+{
+    border-radius: 50%;
+}
+.access2
+{
+    border-radius: 50%;
+}
+.skill2_content
+{
+    flex-basis: 500px;
+    padding: 5px;
+}
+.skillsection
+{
+
+    background-color:#003b49 ;
+    font-family: 'Work Sans', sans-serif;
+    color:#d0d3d4;
+}
+h2
+{
+    margin-top:0;
+    padding-top:10px;
+}
+.Contactme
+{
+    display: flex;
+    justify-content: center;
+    background-color:#d6d2c4;
+    padding-top:50px;
+    color: #003b49;
+}
+.cintact2
+ {
+    display: flex;
+    justify-content: center;
+    background-color: #d6d2c4;
+    color: #003b49;
+ }
+.last_section
+  {
+    flex-basis: 600px;
+  }
+.Contactbutton
+   {
+    display: flex;
+    justify-content: center;
+    background-color: #d6d2c4;
+    color: #003b49;
+   }
+.last
+{
+    color: #003b49;;
+    padding: 16px;
+    margin: 10px;
+    font-weight: bold;
+    border: 2px black solid;
+    border-radius: 10%;
+}
+@media(max-width: 489px)
+{
+    .skill1, .skill2
+    {
+        flex-direction: column;
+        flex-basis: auto;
+    }
+    .skill2
+    {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .skill1_content
+    {
+        flex-basis: auto;
+    }
+    .myskillpic
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .skill2_content
+    {
+        flex-basis:auto;
+        padding: 5px;
+    }
+}
+.content-info
+{
+    display: flex;
+    justify-content: center;
+}
+.SM
+{
+    color: black;
+}
+.SM:hover
+{
+    color:#5d3754;
+    background-color: #d0d3d4;
+}
+.cpy
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer
+{
+    padding-top: 20px ;
+    background-color:#5d3754;
+    color:#d0d3d4;
+}
+.dp
+{
+    display: inline-flex;
+    
+}
+h2.item2
+{
+    font-size: 40px;
+}
+@media(max-width: 489px)
+{
+    .content-info
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    ul
+    {
+      padding-left: 0%;
+    }
+    li
+    {
+        padding-bottom: 20px;
+    }
+    
+}
+.bread
+{
+    color: black;
+    text-decoration: none;
+}
+.breadcrum
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.email
+{
+    display: inline-block;
+
+}
+@media(max-width: 380px)
+{
+    .email
+    {
+        width: 250px;
+        height:50px;
+        overflow-wrap: break-word;
+
+    }
+}
+span
+{
+    display: inline-block; /* Ensure it's an inline-block element */
+      transition: transform 1s ease; /* Add smooth transition effect */
+}
+span:hover
+{
+    transform: rotate(290deg);
+}
+@keyframes imageAnimation {
+    0% {
+      transform: scale(1);
+      
+    }
+    50% {
+      transform: scale(1.2);
+     
+    }
+    100% {
+      transform: scale(1);
+    
+    }
+  }
+
+  .animated-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 50%;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    animation: imageAnimation 4s 1;
+  }
+
+  .animated-image:hover {
+    transform: scale(1.2);
+    
+  }
+  .SM{
+    color:#d0d3d4;
+  }
+  .bread:hover
+  {
+    background-color: white;
+  }
+  .detail:hover
+  {
+    background-color: white;
+  }
+
+  *:focus {
+	/* inner indicator */
+	outline: 2px #F9F9F9 solid;
+	outline-offset: 0;
+	/* outer indicator */
+	box-shadow: 0 0 0 4px #193146;
+}
+.logo1:focus-visible {
+    /* inner indicator */
+    outline: 2px #F9F9F9 solid;
+    
+    /* outer indicator */
+    box-shadow: 0 0 0 4px #white;
+}
