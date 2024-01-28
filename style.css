@@ -61,7 +61,6 @@ a:hover, a:focus, a:focus-visible
 .header_logo
 {
     padding: 11px;
-    display: inline-block;
     float: left;
 }
 @media(max-width: 532px)
@@ -437,7 +436,7 @@ span:hover
     outline: 2px #F9F9F9 solid;
     
     /* outer indicator */
-    box-shadow: 0 0 0 4px #white;
+    box-shadow: 0 0 0 4px;
 }
 .download
 {
