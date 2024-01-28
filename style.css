@@ -5,6 +5,21 @@
     
         
 }
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    color:#5d3754;
+    background-color: #d0d3d4;
+  }
+  .skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+  }
 body
 {
     font-family: 'Work Sans', sans-serif;
@@ -30,7 +45,7 @@ body
     border: 2px  solid;
     border-radius: 10%;
 }
-a:hover
+a:hover, a:focus, a:focus-visible
 {
   animation-name: Thankyou;
   animation-duration: 1s;
@@ -113,10 +128,11 @@ h1
 .intro1
 {
     flex-basis: 700px;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 0%;
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
+    
 }
 
 .profile
@@ -400,11 +416,11 @@ span:hover
   .SM{
     color:#d0d3d4;
   }
-  .bread:hover
+  .bread:hover, .bread:focus
   {
     background-color: white;
   }
-  .detail:hover
+  .detail:hover, .detail:focus
   {
     background-color: white;
   }
@@ -422,4 +438,22 @@ span:hover
     
     /* outer indicator */
     box-shadow: 0 0 0 4px #white;
+}
+.download
+{
+    color:#fff1e1;
+    text-decoration: none;
+    padding: 16px;
+    
+    font-weight: bold;
+    color:#533566;
+    border: 2px  solid;
+    border-radius: 10%;
+}
+a.download:hover, a.download:focus
+{
+  animation-name: Thankyou;
+  animation-duration: 1s;
+  background-color: #533566 ;
+    color:#D6D2C4;
 }
