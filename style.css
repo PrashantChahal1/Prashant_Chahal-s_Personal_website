@@ -1,3 +1,9 @@
+body
+{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+
 .banner
 { 
     background-color: #000000;
@@ -20,10 +26,6 @@
     width: auto;
     height: auto;
   }
-body
-{
-    font-family: 'Work Sans', sans-serif;
-}
 .flexbox
 {
     display: flex;
@@ -34,9 +36,8 @@ body
 
  
 
-.Contact_us, .Resume, .last, .SM
+.nav_link, .Contact_us, .Resume, .last, .SM
 {
-    color:#fff1e1;
     text-decoration: none;
     padding: 16px;
     margin: 10px;
@@ -63,7 +64,7 @@ a:hover, a:focus, a:focus-visible
     padding: 11px;
     float: left;
 }
-@media(max-width: 532px)
+@media(max-width: 639px)
 {
     .logo
     {
@@ -456,3 +457,53 @@ a.download:hover, a.download:focus
   background-color: #533566 ;
     color:#D6D2C4;
 }
+=======================
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    
+  }
+  
+  .dice {
+    text-align: center;
+    display: inline-block;
+  
+  }
+  
+  body {
+    background-color: #d6d2c4;
+  }
+  
+  .dice_heading{
+   
+    font-family: sans-serif;
+  
+    color:#003b49;
+  }
+  #diceroll
+  {
+    margin-top: 30px;
+    color:#003b49;
+    background-color: #d6d2c4;
+    font-size: 30px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+  }
+  
+  .para_heading {
+    font-size: 2rem;
+    color:#003b49;
+    font-family: sans-serif;
+  }
+  
+  .dice_image {
+    width: 80%;
+  }
+  
+  
+  
+  
+  
+  
