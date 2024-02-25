@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Drum Kit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <style>
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.w {
+background-image: url("./images/crash.png");
+}
+
+.a {
+  background-image: url("./images/kick.png");
+}
+
+.s {
+  background-image: url("./images/snare.png");
+}
+
+.d {
+  background-image: url("./images/tom1.png");
+}
+
+.j {
+  background-image: url("./images/tom2.png");
+}
+
+.k {
+  background-image: url("./images/tom3.png");
+}
+
+.l {
+  background-image: url("./images/tom4.png");
+  
+}
+
+.set {
+  margin: 2px auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: #8A1C41;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color:black;
+  
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  
+}
+.d, .k, .l, .j, .a{
+background-blend-mode:hard-light;
+}
+
+@media (
+  max-width: 480px){
+  
+  h1 {
+    font-size: 40px;
+}
+.drum
+{
+  width: 90px;
+  height: 90px;
+  font-size: 40px;
+}
+
+}
+*:focus
+{
+  outline:#DBEDF3 2px solid;
+}
+.container {
+ 
+  margin: auto;
+  text-align: center;
+}
+
+   </style> 
+</head>
+
+<body>
+  <Header>
+      <a  href="#main" class="skip header_link">Skip to main content</a>
+       <div class="banner">
+          <div class="logo">
+         <a class="logo1 header_link"  aria-label="Crafted A11Y by Prashant, Home page" href="./index.html"><img  class="header_logo" src="./Assessts/Logo_Resume.png" alt="" height= "55px" width="255px"> </a>
+          </div>
+          <div class="flexbox">
+              <a aria-current="page" class="Contact_us header_link nav_link" href="./drum.html"> Drum Play </a>
+              <a class="Contact_us header_link nav_link" href="./dicee.html"> Dice Game </a>
+          <a class="Contact_us header_link nav_link" href="./Contact_Us.html"> Contact Me </a>
+            <a class="Resume header_link nav_link" href="./Resume.html"> Hire Me </a>
+          </div>
+       </div>
+  </Header>
+
+
+  <main id="main">
+  <h1 id="title">Drum 🥁 Kit</h1>
+  <p style="opacity:0.01;">There are 7 music instrument below.</p>
+  <div class="set">
+    <button aria-label="For crash sound press key w" class="w drum">w</button>
+    <button aria-label="For kick-bass sound press key a"class="a drum">a</button>
+    <button aria-label="For sanre sound press key s" class="s drum">s</button>
+    <button aria-label="For tom-1 sound press key d" class="d drum">d</button>
+    <button aria-label="For tom-2 sound press key j" class="j drum">j</button>
+    <button aria-label="For tom-3 sound press key k"class="k drum">k</button>
+    <button aria-label="For tom-4 sound press key l" class="l drum">l</button>
+  </div>
+
+  <p style="color:aliceblue; font-weight: bold; font-size: 40px;" class="winner container .para_heading"></p>
+
+ 
+  </main>
+  <footer style="margin-top: 110px;">
+    <div class="content-info">
+       <a target="blank"  class="SM" href="https://www.linkedin.com/in/prashant-choudhary-cpacc-824031184/"> Linkedin</a>
+       
+       <a target="blank" class="SM" href="https://x.com/Prashant_engr/">Twitter</a>
+       
+       <a target="blank" class="SM" href="https://www.instagram.com/prashant___chahal_?igsh=NGdyNGgxb3g2Njdh">Instagram</a>
+    </div>
+    <div class="cpy">
+       <p>© Prashant Choudhary</p>
+    </div>
+  </footer> 
+  <script src="./drum.js" charset="utf-8"></script>
+</body>
+
+</html>
